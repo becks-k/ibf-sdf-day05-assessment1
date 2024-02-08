@@ -1,0 +1,9 @@
+mvn archetype:generate -DgroupId=nus.iss.sdf -DartifactId=task02 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+Server
+java -cp target/task02-1.0-SNAPSHOT.jar nus.iss.sdf.server.ServerApp 80
+
+Client
+java -cp target/task02-1.0-SNAPSHOT.jar nus.iss.sdf.client.ClientApp sfd.chuklee.com:80
+
+C:\Users\Rebekah\Desktop\NUS ISS Software Development\mockassessment1\task02

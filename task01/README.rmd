@@ -1,0 +1,3 @@
+java -cp target/task01-1.0-SNAPSHOT.jar nus.iss.sdf.App data\data.csv data\mailmerge.txt
+
+C:\Users\Rebekah\Desktop\NUS ISS Software Development\mockassessment1\task01\data
